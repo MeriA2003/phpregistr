@@ -1,0 +1,120 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #0056b3;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.form-container {
+    background-color: #ffffff;
+    padding: 50px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    border: 1px solid #d6e0f5;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #0056b3;
+}
+
+.num {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #d6e0f5;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #f9fbff;
+
+}
+
+#but{
+    background-color: #0056b3;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 12px;
+}
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border: 1px solid #d6e0f5;
+}
+
+table th, table td {
+    border: 1px solid #d6e0f5;
+    padding: 12px;
+    text-align: center;
+    font-size: 14px;
+}
+
+table th {
+    background-color: #0056b3;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+table a {
+    color: #0056b3;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+ h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.about-me-btn{
+        background-color: #0056b3;
+        cursor: pointer;
+        font-weight: bold;
+        margin-left: 12px;
+        padding: 10px;
+        color: #ffffff;
+        border: none;
+        margin-top: 10px;
+        border-radius: 5px;
+        margin-left: 88%;
+    
+}
+@media (max-width: 600px) {
+    .form-container {
+        width: 90%;
+    }
+
+    table {
+        font-size: 12px;
+    }
+
+    table th, table td {
+        padding: 8px;
+    }
+}
+
